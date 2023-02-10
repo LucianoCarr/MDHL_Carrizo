@@ -20,23 +20,27 @@ h1 {
 h3 {
     font-size: 25px;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
 }
 
 article {
-    
-    text-align: center;
+    text-align: left;
+    padding-left: 220px;
+}
+
+section {
+    text-align: left;
+    padding-left: 220px;
 }
 
 .logo {
     position: absolute;
-    padding-left: 120px;
+    padding-left: 20px;
 }
 
 nav {
     text-align: end;
     padding-right: 50px;
-   
 }
 
 nav a {
@@ -48,6 +52,8 @@ nav a {
     color: black;
     border: 1px solid black;
     border-radius: 10px;
+    position: relative;
+    top: 10px;
 }
 
 /* a:hover{
@@ -56,17 +62,21 @@ nav a {
 } */
 
 a[href="#"] {
- background-color: rgb(222, 241, 44);   
+    background-color: rgb(222, 241, 44);
 }
 
-.intro-img{
-    width: 100%;   
+.caja {
+    border: 2px solid black;
+}
+
+.intro-img {
+    height: 400px;
+    width: 100%;
 }
 
 .titulo {
-    border:  2px solid black;
+    border: 5px solid black;
     text-align: center;
     font-size: 35px;
     margin-top: 0;
 }
-
