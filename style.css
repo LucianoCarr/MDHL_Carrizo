@@ -28,6 +28,11 @@ article {
     text-align: center;
 }
 
+.logo {
+    position: absolute;
+    padding-left: 120px;
+}
+
 nav {
     text-align: end;
     padding-right: 50px;
