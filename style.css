@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 body {
@@ -19,6 +21,7 @@ header {
     background-image: linear-gradient(to right, #bebfe0 0%, #43e7ec 100%);
 }
 
+
 h1 {
     display: inline;
     font-size: 70px;
@@ -26,6 +29,7 @@ h1 {
 }
 
 h3 {
+    font-size: 20px;
     font-weight: bolder;
     text-align: left;
 }
@@ -43,6 +47,7 @@ section {
 .logo {
     position: absolute;
     padding-left: 20px;
+    
 }
 
 nav {
@@ -63,7 +68,7 @@ nav a {
     top: 10px;
 }
 
-a:hover {
+a:hover{
     background-color: chartreuse;
     color: black;
 }
@@ -71,3 +76,19 @@ a:hover {
 /* a[href="#"] {
     background-color: rgb(222, 241, 44);
 } */
+
+.caja {
+    border: 2px solid black;
+}
+
+.intro-img {
+    height: 400px;
+    width: 100%;
+}
+
+.titulo {
+    border: 5px solid black;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0;
+}
