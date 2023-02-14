@@ -31,7 +31,7 @@ a:hover {
 
 a[href="#"] {
     background-color: rgb(222, 241, 44);
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .intro-img {
@@ -64,11 +64,7 @@ h3 {
     width: 120px;
 }
 
-article {
-    text-align: center;
-}
-
-section {
+article, section {
     text-align: center;
 }
 
@@ -111,4 +107,10 @@ td {
 
 li {
     list-style: none;
+    padding: 5px;
+}
+
+ul {
+    text-align: center;
+    padding: 20px;
 }
