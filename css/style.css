@@ -31,7 +31,7 @@ a:hover {
 
 a[href="#"] {
     background-color: rgb(222, 241, 44);
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .intro-img {
@@ -40,7 +40,6 @@ a[href="#"] {
 }
 
 h1 {
-    display: inline;
     font-size: 60px;
     color: rgba(247, 247, 14, 0.945)
 }
@@ -75,4 +74,41 @@ section {
 
 p {
     padding: 10px;
+}
+
+.schedule {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+
+.colum2 {
+    color: rgb(136, 86, 21);
+}
+
+table {
+    background-color: rgb(14, 8, 97);
+    width: 80vw;
+    height: 50vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    border-collapse:separate;
+    border-spacing: 20px; /* distancia entre los bordes de las celdas */
+    /* border-collapse: collapse; */ /*junta todos los bordes, comparte, no los separa*/
+}
+
+th,td {
+    border: 1px solid black;
+    color: aliceblue;
+}
+
+td {
+    padding: 10px;
+}
+
+li {
+    list-style: none;
 }
