@@ -4,9 +4,6 @@
     box-sizing: border-box;
     font-weight: bold;
     font-size: 20px;
-}
-
-body {
     font-family: sans-serif;
 }
 
@@ -14,54 +11,16 @@ header {
     background-image: linear-gradient(to right, #bebfe0 0%, #43e7ec 100%);
 }
 
-h1 {
-    display: inline;
-    font-size: 70px;
-    color: rgba(247, 247, 14, 0.945)
-}
-
-h3 {
-    font-size: 20px;
-    font-weight: bolder;
-    text-align: center;
-}
-
-article {
-    text-align: center;
-}
-
-section {
-    text-align: center;
-}
-
-.logo {
-    position: fixed;
-    top: 5px;
-    right: 20px;
-    width: 120px;
-}
-
-p {
-    padding: 10px;
-}
-
 nav {
-    /* padding-right: 50px; */
     display: flex;
     justify-content: center;
     background-color: #789fdb;
-    
 }
 
 nav a {
     padding: 7px;
-   
-/*     display: inline-block; */
     text-decoration: none;
-/*     text-align: center; */
     color: black;
-   /*  position: relative;
-    top: 10px; */
 }
 
 a:hover {
@@ -80,9 +39,40 @@ a[href="#"] {
     width: 100%;
 }
 
-.tittle {
+h1 {
+    display: inline;
+    font-size: 60px;
+    color: rgba(247, 247, 14, 0.945)
+}
+
+h2 {
     border: 5px solid black;
     text-align: center;
     font-size: 35px;
     margin-top: 0;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.logo {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    width: 120px;
+}
+
+article {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
 }
