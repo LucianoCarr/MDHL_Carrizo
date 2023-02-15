@@ -91,13 +91,13 @@ table {
     border: 1px solid black;
     border-radius: 10px;
     font-size: 20px;
-    border-collapse:separate;
-    border-spacing: 20px; /* distancia entre los bordes de las celdas */
-    /* border-collapse: collapse; */ /*junta todos los bordes, comparte, no los separa*/
+    /* border-collapse:separate;
+    border-spacing: 5px;  */             /* bordes de las celdas */
+    border-collapse: collapse;           /*junta todos los bordes*/
 }
 
 th,td {
-    border: 1px solid black;
+    border: 1px solid rgb(202, 78, 78);
     color: aliceblue;
 }
 
