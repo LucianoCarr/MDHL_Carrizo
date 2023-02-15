@@ -64,7 +64,8 @@ h3 {
     width: 120px;
 }
 
-article, section {
+article,
+section {
     text-align: center;
 }
 
@@ -90,11 +91,12 @@ table {
     height: 50vh;
     border: 1px solid black;
     border-radius: 10px;
-    font-size: 20px;          
-    border-collapse: collapse;           
+    font-size: 20px;
+    border-collapse: collapse;
 }
 
-th,td {
+th,
+td {
     border: 1px solid rgb(202, 78, 78);
     color: aliceblue;
 }
@@ -120,16 +122,25 @@ iframe {
 form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 fieldset {
     padding: 15px;
-    border: 1px solid red;
-    align-items: center;
-
+    border: 1px solid #43e7ec;
+    background-color: #14c8ce;
+    border-radius: 10px;
+    /* width: 100%; */
 }
 
 label {
-    border: 1px solid yellow;   
+    padding: 8px;
+}
+
+button {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: chartreuse;
+    font-size: 30px;
 }
