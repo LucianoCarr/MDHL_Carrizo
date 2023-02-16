@@ -131,7 +131,6 @@ fieldset {
     border: 1px solid #43e7ec;
     background-color: #14c8ce;
     border-radius: 10px;
-    /* width: 100%; */
 }
 
 label {
@@ -143,4 +142,28 @@ button {
     cursor: pointer;
     background-color: chartreuse;
     font-size: 30px;
+}
+
+@media screen and (max-width:769px) {
+    main {
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:426px) {
+    main {
+        background-color: yellow;
+    }
+}
+
+@media screen and (max-width:376px) {
+    main {
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:321px) {
+    main {
+        background-color: green;
+    }
 }

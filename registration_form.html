@@ -8,10 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-</head>
-
-<body>
+   
     <style>
         body {
             background-image: linear-gradient(45deg, rgba(184, 199, 212, 0.705) 0%, rgba(170, 175, 201, 0.685) 99%,
@@ -22,7 +19,9 @@
             background-position: center;
         }
     </style>
+</head>
 
+<body>
     <header>
         <h1>Mighty Ducks Hockey League</h1>
         <nav>
@@ -45,35 +44,29 @@
             <fieldset>
                 <label>
                     Player Firs´t Name:
-                    <a class="icons"><i class='bx bxs-user'></i></a>
-                    <input type="name" id="name" required>
+                    <input type="text" name="name">
                 </label>
                 <label>
                     Last Name:
-                    <a class="icons"><i class='bx bxs-user'></i></a>
-                    <input type="name" id="name" required>
+                    <input type="text" name="lastname">
                 </label>
             </fieldset>
             <fieldset>
                 <label>Street Address:
-                    <a class="icons"><i class='bx bxs-user'></i></a>
-                    <input type="text" required>
+                    <input type="text" name="Address">
                 </label>
             </fieldset>
             <fieldset>
                 <label>City:
-                    <a class="icons"><i class='bx bxs-user'></i></a>
-                    <input type="text" required>
+                    <input type="text" name="city">
                 </label>
                 <label>Zip Code:
-                    <a class="icons"><i class='bx bxs-user'></i></a>
-                    <input type="number" id="number" required>
+                    <input type="number" name="zip">
                 </label>
             </fieldset>
             <fieldset>
                 <label>Birth Date:
-                    <a class="icons"><i class='bx bxs-user'></i></a>
-                    <input type="date" required>
+                    <input type="date" name="birthdate" >
                 </label>
                 Gender:
                 <label>Male
@@ -98,7 +91,7 @@
             <fieldset>
                 <legend>Wich elemtary school do you live near?</legend>
                 <label for="select">Closest School:</label>
-                <select name="school" id="select">
+                <select name="school" id="select2">
                     <option disabled selected>None</option>
                     <option value="AJK">AJ Katzenmaier</option>
                     <option value="GRE">Greenbay</option>
@@ -160,11 +153,11 @@
             </section>
             <fieldset>
                 <label>Parent/Guardian Signature:</label>
-                <input type="name" name="signature" required>
+                <input type="text" name="signature">
             </fieldset>
             <fieldset>
                 <label>Date:</label>
-                <input type="date" required>
+                <input type="date" name="date" >
             </fieldset>
             <button>Send</button>
         </form>
