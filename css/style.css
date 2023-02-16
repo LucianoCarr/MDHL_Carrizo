@@ -148,9 +148,6 @@ button {
 }
 
 @media screen and (max-width:769px) {
-    main {
-        background-color: red;
-    }
 
     nav {
         padding: 7px;
@@ -166,9 +163,6 @@ button {
 }
 
 @media screen and (max-width:426px) {
-    main {
-        background-color: yellow;
-    }
 
     table {
         background-color: rgb(14, 8, 97);
@@ -184,15 +178,10 @@ button {
 }
 
 @media screen and (max-width:376px) {
-    main {
-        background-color: white;
-    }
+
 }
 
 @media screen and (max-width:321px) {
-    main {
-        background-color: green;
-    }
 
     table {
         background-color: rgb(14, 8, 97);
